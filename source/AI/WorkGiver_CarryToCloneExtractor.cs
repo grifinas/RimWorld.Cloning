@@ -10,7 +10,7 @@ namespace Dark.Cloning
 {
 	public class WorkGiver_CarryToCloneExtractor : WorkGiver_CarryToBuilding
 	{
-		public override ThingRequest ThingRequest => ThingRequest.ForDef(CloneDefOf.CloneExtractor);
+		public override ThingRequest PotentialWorkThingRequest => ThingRequest.ForDef(CloneDefOf.CloneExtractor);
 
         public override bool ShouldSkip(Pawn pawn, bool forced = false)
 		{

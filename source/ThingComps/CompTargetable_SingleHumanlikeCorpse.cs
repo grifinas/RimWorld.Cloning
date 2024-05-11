@@ -25,7 +25,7 @@ namespace Dark.Cloning
 				canTargetBuildings = false,
 				canTargetItems = true,
 				mapObjectTargetsMustBeAutoAttackable = false,
-				validator = (TargetInfo x) => x.Thing is Corpse && x.Thing.HasThingCategory(ThingCategoryDefOf.CorpsesHumanlike) && BaseTargetValidator(x.Thing)
+				validator = (TargetInfo x) => x.Thing is Corpse && x.Thing.HasThingCategory(ThingCategoryDefOf.CorpsesHumanlike)
 			};
 		}
 

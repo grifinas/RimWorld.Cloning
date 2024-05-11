@@ -283,7 +283,7 @@ namespace Dark.Cloning
             bool eligible = Mutations.IsEligible(gene); // Cache this so we don't force GeneUtils to do a .Contains several times for each gene.
 
             // Actually draw the gene, using vanilla's built-in static method for drawing genes from a def. This comes with the benefit of having the tooltip with all the gene's info
-            GeneUIUtility.DrawGeneDef(GeneUtils.GeneNamed(gene), buttonRect, GeneType.Endogene, eligible ? "Enabled".Translate() : "Disabled".Translate(), true, false);
+            GeneUIUtility.DrawGeneDef(GeneUtils.GeneNamed(gene), buttonRect, GeneType.Endogene, () => eligible ? "Enabled".Translate() : "Disabled".Translate(), true, false);
 
             if (eligible)
                 Widgets.DrawHighlight(buttonRect);
