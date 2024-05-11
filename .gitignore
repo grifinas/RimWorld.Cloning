@@ -14,3 +14,7 @@ source/About/Source Images/discord announcement post.txt
 source/About/Source Images/Preview.png
 source/Changelog.txt
 Changelog.txt
+source/obj/**
+source/1.4/**
+source/.vs/**
+source/Cloning.csproj

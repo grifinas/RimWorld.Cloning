@@ -425,7 +425,7 @@ namespace Dark.Cloning
 				{
 					extraTooltip = ( "GeneWillBeRandomChosen".Translate() + ":\n" + randomChosenGroups[gene].Select((GeneDef x) => x.label).ToLineList("  - ", capitalizeItems: true) ).Colorize(ColoredText.TipSectionTitleColor);
 				}
-				GeneUIUtility.DrawGeneDef(genesListForReading[i], geneRect, GeneType.Xenogene, extraTooltip, doBackground: false, clickable: false, overridden);
+				GeneUIUtility.DrawGeneDef(genesListForReading[i], geneRect, GeneType.Xenogene, () => extraTooltip, doBackground: false, clickable: false, overridden);
 				curX += GeneCreationDialogBase.GeneSize.x + 4f;
 				if (curX + GeneCreationDialogBase.GeneSize.x > packWidth)
                 {
@@ -563,7 +563,7 @@ namespace Dark.Cloning
 			
 			extraTooltip = extraTooltip + "\n\n" + tooltip;
 
-			GeneUIUtility.DrawGeneDef(gene, geneRect, geneType, extraTooltip, doBackground: false, clickable: false, overridden);
+			GeneUIUtility.DrawGeneDef(gene, geneRect, geneType, () => extraTooltip, doBackground: false, clickable: false, overridden);
 
 			if (geneType == GeneType.Xenogene)
 				Widgets.DrawRectFast(packRect, new Color(0.2f, 0.2f, 0.25f, 0.4f));
@@ -638,8 +638,8 @@ namespace Dark.Cloning
 				{
 					extraTooltip = ( "GeneWillBeRandomChosen".Translate() + ":\n" + randomChosenGroups[gene].Select((GeneDef x) => x.label).ToLineList("  - ", capitalizeItems: true) ).Colorize(ColoredText.TipSectionTitleColor);
 				}
-				GeneUIUtility.DrawGeneDef(genesListForReading[i], geneRect, GeneType.Xenogene, extraTooltip, doBackground: false, clickable: false, overridden);
-				curX += GeneCreationDialogBase.GeneSize.x + 4f;
+                GeneUIUtility.DrawGeneDef(genesListForReading[i], geneRect, GeneType.Xenogene, () => extraTooltip, doBackground: false, clickable: false, overridden);
+                curX += GeneCreationDialogBase.GeneSize.x + 4f;
 			}
 			Widgets.InfoCardButton(rect.xMax - 24f, rect.y + 2f, genepack);
 			if (unpoweredGenepacks.Contains(genepack))

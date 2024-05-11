@@ -1,8 +1,6 @@
-E:\GameDev\Modding\Dark.RimWorldMods\Cloning\source\bin\Debug\Cloning.dll
-E:\GameDev\Modding\Dark.RimWorldMods\Cloning\source\bin\Debug\Cloning.pdb
-E:\GameDev\Modding\Dark.RimWorldMods\Cloning\source\1.4\Assemblies\Cloning.dll
-E:\GameDev\Modding\Dark.RimWorldMods\Cloning\source\1.4\Assemblies\Cloning.pdb
-E:\GameDev\Modding\Dark.RimWorldMods\Cloning\source\obj\Debug\Cloning.csproj.CoreCompileInputs.cache
-E:\GameDev\Modding\Dark.RimWorldMods\Cloning\source\obj\Debug\Cloning.dll
-E:\GameDev\Modding\Dark.RimWorldMods\Cloning\source\obj\Debug\Cloning.pdb
-E:\GameDev\Modding\Dark.RimWorldMods\Cloning\source\obj\Debug\Cloning.csproj.AssemblyReference.cache
+D:\backup\projects\monorepo\Csharp\RimWorld.Cloning\source\1.4\Assemblies\Cloning.dll
+D:\backup\projects\monorepo\Csharp\RimWorld.Cloning\source\1.4\Assemblies\Cloning.pdb
+D:\backup\projects\monorepo\Csharp\RimWorld.Cloning\source\obj\Debug\Cloning.csproj.AssemblyReference.cache
+D:\backup\projects\monorepo\Csharp\RimWorld.Cloning\source\obj\Debug\Cloning.csproj.CoreCompileInputs.cache
+D:\backup\projects\monorepo\Csharp\RimWorld.Cloning\source\obj\Debug\Cloning.dll
+D:\backup\projects\monorepo\Csharp\RimWorld.Cloning\source\obj\Debug\Cloning.pdb
