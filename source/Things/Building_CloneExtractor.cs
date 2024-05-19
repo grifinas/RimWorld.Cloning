@@ -670,10 +670,10 @@ namespace Dark.Cloning
         public override void DynamicDrawPhaseAt(DrawPhase phase, Vector3 drawLoc, bool flip = false)
         {
             base.DynamicDrawPhaseAt(phase, drawLoc, flip);
-            if (!this.Working || this.selectedPawn == null || !this.innerContainer.Contains((Thing)this.selectedPawn))
-                return;
-
-            this.selectedPawn.Drawer.renderer.RenderPawnAt(this.DrawPos + this.PawnDrawOffset, neverAimWeapon: true);
+            if (base.Working && ContainedPawn != null)
+            {
+                ContainedPawn.Drawer.renderer.DynamicDrawPhaseAt(phase, drawLoc + PawnDrawOffset, null, neverAimWeapon: true);
+            }
         }
 
         public override string GetInspectString()

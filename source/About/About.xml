@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<packageId>Dark.Cloning</packageId>
-	<name>Biotech Cloning</name>
-	<author>DarkFlame7</author>
+	<packageId>grifinas.Cloning</packageId>
+	<name>Biotech Cloning 1.5</name>
+	<author>grifinas</author>
 	<supportedVersions>
     <li>1.4</li>
+    <li>1.5</li>
   </supportedVersions>
-  <description>Allows you to use Biotech's growth vats to grow clones asexually from only one donor parent regardless of fertility or age, copying their entire xenotype.
+  <description>This is a port of DarkFlame7's Cloning mod for 1.5. 
+- Original is available at: https://steamcommunity.com/sharedfiles/filedetails/?id=2881790485
+- Git: https://github.com/JTJutajoh/RimWorld.Cloning
+
+Allows you to use Biotech's growth vats to grow clones asexually from only one donor parent regardless of fertility or age, copying their entire xenotype.
 Also includes an optional mutations system where clones have a random chance to gain genes on birth. Settings allows you to customize overall mutation chance as well as which genes are eligible for mutation and how likely each gene is. Defaults are mostly negative mutations.
 Update 0.2 includes a new system for cloning xenogenes from the donor pawn, and even allows you to design the clone's genes directly using the Biotech gene bank system. Read the update news for more info.
 
@@ -41,5 +46,5 @@ Future plans
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <url>https://github.com/JTJutajoh/RimWorld.Cloning</url>
+  <url>https://github.com/grifinas/RimWorld.Cloning</url>
 </ModMetaData>

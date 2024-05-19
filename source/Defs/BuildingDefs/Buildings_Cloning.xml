@@ -7,7 +7,7 @@
     <description>A building that through complicated processes extracts a living human embryo from a single human donor, ready to be grown into a clone of them.</description>
     <thingClass>Dark.Cloning.Building_CloneExtractor</thingClass>
     <containedPawnsSelectable>true</containedPawnsSelectable>
-    <passability>Impassable</passability>
+    <passability>PassThroughOnly</passability>
     <fillPercent>0.4</fillPercent>
     <castEdgeShadows>true</castEdgeShadows>
     <drawerType>MapMeshAndRealTime</drawerType>
