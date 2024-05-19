@@ -13,6 +13,7 @@ function recursiveCopyExt() {
     done
 }
 
+rm -rf "$RIMWORLD_MOD_PATH/*"
 cp -rf "./About" "$RIMWORLD_MOD_PATH/About"
 recursiveCopyExt "xml"
 recursiveCopyExt "dll"
